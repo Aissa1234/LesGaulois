@@ -4,6 +4,8 @@ public class Village {
 	
 private String nom;
 private Chef chef;
+private Gaulois[]Villageois;
+privte int numVillageois;
 public Village(String nom) {
 this.nom = nom;
 }
