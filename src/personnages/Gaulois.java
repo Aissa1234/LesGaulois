@@ -47,5 +47,3 @@ public static void main(String[] args) {
 		asterix.boirePotion(3);
 	}
 }
-
-
