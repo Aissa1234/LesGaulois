@@ -1,4 +1,6 @@
 package personnages;
+
+import personnages.Chef;
 public class Village {
 	private String nom;
 	private Chef chef;
@@ -40,7 +42,7 @@ public class Village {
 		Village village = new Village("Village des Irreductibles", 30);
 		//Gaulois gaulois = village.trouverHabitant(30); le tableau a 30 places donc la case d'indice 30 n'existe pas
 		
-		Chef abraracourcix = new Chef();
+		Chef abraracourcix = new Chef("Abraracourcix",6village);
 		village.setChef(abraracourcix);
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		village.ajouterHabitant(asterix);
